@@ -1,10 +1,4 @@
 /* common CSS */
-.bg-Primary {
-  background: #35b1ef !important;
-}
-.text-Primary {
-  background: #35b1ef !important;
-}
 
 /* Banner Section  */
 .large-text {
@@ -46,11 +40,45 @@
   padding: 71px 0 104px 0;
   color: white;
 }
-.font-52 {
+.service .font-52 {
   font-size: 52px;
   padding: 17px 0 34px 0;
 }
 .service .block {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.events {
+  padding: 145px 0 170px 0;
+}
+
+.events .responsive-box {
+  width: 100%;
+  max-width: 917px;
+  aspect-ratio: 917 / 527;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.events .font-52 {
+  font-size: 52px;
+}
+.events .font-44 {
+  color: #35b1ef;
+  text-align: center;
+  font-family: "Quattrocento", serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.461%;
+  padding-top: 45px;
+}
+.events .eventBlock {
+  max-width: 501px;
+  margin: 0 auto;
+}
+.events .subTitle {
+  color: #2b4760;
 }

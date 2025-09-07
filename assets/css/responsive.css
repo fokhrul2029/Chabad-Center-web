@@ -18,6 +18,17 @@
 
 /* ----------------------- */
 
+/* Common CSS  */
+
+.bg-Primary {
+  background: #35b1ef !important;
+}
+.text-Primary {
+  color: #35b1ef !important;
+}
+
+/* --------------------------- */
+
 .container-xxl,
 .container {
   max-width: 1457px !important;
@@ -30,7 +41,7 @@
   border-radius: 43px;
   background-color: #2b4760;
   color: #ffffff;
-  padding: 13px 20px;
+  padding: 11.5px 25px 13px 25px;
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
@@ -41,4 +52,15 @@
 
 .button:hover {
   background-color: #3a5b7a;
+}
+
+.title {
+  font-size: 84px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85%; /* 71.4px */
+  letter-spacing: -1.68px;
+  color: #2b4760;
+  text-align: center;
 }
