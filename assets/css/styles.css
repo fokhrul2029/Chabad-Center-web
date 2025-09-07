@@ -50,7 +50,7 @@
 }
 
 .events {
-  padding: 145px 0 170px 0;
+  padding: 145px 0 150px 0;
 }
 
 .events .responsive-box {
@@ -81,4 +81,17 @@
 }
 .events .subTitle {
   color: #2b4760;
+}
+
+/* Footer Section  */
+.footer {
+  background-color: #1a70ba;
+  padding: 35px 0 44px 0;
+}
+
+.footer .pera {
+  font-size: 11.5px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 2px;
 }
