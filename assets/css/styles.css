@@ -30,6 +30,21 @@
   background-color: #35b1ef;
   margin: 16px 0;
 }
+.masked-container {
+  width: 100%;
+  max-width: 484px;
+  height: auto;
+  border-top-left-radius: 100% 500px;
+  border-top-right-radius: 100% 500px;
+  overflow: hidden;
+}
+
+/* Centered text */
+.masked-text h1 {
+  padding-top: 85px;
+  font-family: "Inter", sans-serif;
+}
+
 .celebrateBlock {
   max-width: 424px;
   margin: 0 auto;
@@ -105,7 +120,7 @@
   font-family: "Montserrat", sans-serif;
   padding-top: 2px;
 }
-
+/*  Responsive Adjustments */
 @media (max-width: 576px) {
   .large-text {
     font-size: 30px;
@@ -116,8 +131,32 @@
   .logo {
     max-width: 80px;
   }
-}
+  .font-84 {
+    font-size: 40px;
+  }
+  .service .font-52 {
+    font-size: 28px;
+  }
+  .masked-container {
+    max-width: 280px;
+    height: auto;
+  }
 
+  .masked-text h1 {
+    padding-top: 35px;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .masked-container {
+    max-width: 350px;
+  }
+
+  .masked-text h1 {
+    padding-top: 50px;
+    font-size: 1.5rem; /* smaller font size */
+  }
+}
 @media (max-width: 950px) {
   .Holidays {
     margin-top: 20px !important;
@@ -127,5 +166,8 @@
   }
   .font-84 {
     font-size: 60px;
+  }
+  .service .font-52 {
+    font-size: 38px;
   }
 }

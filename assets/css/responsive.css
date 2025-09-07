@@ -28,6 +28,16 @@
   font-size: 94px;
 }
 
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.SF-PRO {
+   font-family: 'SF Pro Display', sans-serif;
+}
+
 /* ----------------------- */
 
 /* Common CSS  */
@@ -75,4 +85,22 @@
   letter-spacing: -1.68px;
   color: #2b4760;
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  .Chalofa {
+    font-size: 54px;
+  }
+  .title {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 950px) {
+  .Chalofa {
+    font-size: 74px;
+  }
+  .title {
+    font-size: 68px;
+  }
 }
