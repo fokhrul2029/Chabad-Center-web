@@ -1,0 +1,56 @@
+/* common CSS */
+.bg-Primary {
+  background: #35b1ef !important;
+}
+.text-Primary {
+  background: #35b1ef !important;
+}
+
+/* Banner Section  */
+.large-text {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.w-136 {
+  width: 136px !important;
+}
+.Holidays {
+  padding-bottom: 150px;
+  margin-top: -35px !important;
+}
+/* Celebrate Section */
+.celebrate {
+  padding-top: 116px;
+  padding-bottom: 124px;
+  background-color: #35b1ef;
+  margin: 16px 0;
+}
+.celebrateBlock {
+  max-width: 424px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+.font-84 {
+  font-size: 84px;
+  line-height: 90%;
+  padding: 22px 0 65px 0;
+  letter-spacing: -0.84px;
+  font-weight: 800;
+}
+
+/* Service Section  */
+
+.service {
+  background: #2b4760;
+  padding: 71px 0 104px 0;
+  color: white;
+}
+.font-52 {
+  font-size: 52px;
+  padding: 17px 0 34px 0;
+}
+.service .block {
+  max-width: 1000px;
+  margin: 0 auto;
+}

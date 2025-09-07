@@ -1,0 +1,44 @@
+/* Fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quattrocento:wght@400;700&display=swap");
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.Inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.Quattrocento {
+  font-family: "Quattrocento", serif;
+  font-style: normal;
+}
+
+/* ----------------------- */
+
+.container-xxl,
+.container {
+  max-width: 1457px !important;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+  background-color: #2b4760;
+  color: #ffffff;
+  padding: 13px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3a5b7a;
+}
