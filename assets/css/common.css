@@ -29,13 +29,13 @@
 }
 
 @font-face {
-  font-family: 'SF Pro Display';
-  src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 .SF-PRO {
-   font-family: 'SF Pro Display', sans-serif;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 /* ----------------------- */
