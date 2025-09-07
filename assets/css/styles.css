@@ -1,6 +1,9 @@
 /* common CSS */
 
 /* Banner Section  */
+.logo {
+  max-width: 136px;
+}
 .large-text {
   font-size: 60px;
   font-weight: 700;
@@ -13,6 +16,13 @@
   padding-bottom: 150px;
   margin-top: -35px !important;
 }
+
+.svg-icon {
+  width: 100%;
+  height: auto;
+  max-width: 125px; /* keeps original proportion on large screens */
+}
+
 /* Celebrate Section */
 .celebrate {
   padding-top: 116px;
@@ -94,4 +104,28 @@
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   padding-top: 2px;
+}
+
+@media (max-width: 576px) {
+  .large-text {
+    font-size: 30px;
+  }
+  .svg-icon {
+    max-width: 60px; /* shrink on small devices */
+  }
+  .logo {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 950px) {
+  .Holidays {
+    margin-top: 20px !important;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .font-84 {
+    font-size: 60px;
+  }
 }
