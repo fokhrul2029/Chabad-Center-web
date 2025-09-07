@@ -16,6 +16,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Chalofa";
+  src: url("../fonts/Chalofa.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Chalofa {
+  font-family: "Chalofa", cursive;
+  font-size: 94px;
+}
+
 /* ----------------------- */
 
 /* Common CSS  */
