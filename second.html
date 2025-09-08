@@ -8,7 +8,7 @@
       href="assets/img/Group 109.svg"
       type="image/x-icon"
     />
-    <title>Second Page</title>
+    <title>New York High Holidays</title>
     <!-- Bootstrap CSS  -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <!-- Custom CSS  -->
@@ -17,17 +17,23 @@
   </head>
   <body>
     <header>
-      <nav class="container d-flex justify-content-between align-items-center">
+      <nav
+        class="container d-flex justify-content-between align-items-center pt-3"
+      >
         <div class="d-flex gap-4 align-items-center">
           <img src="assets/img/Vector.svg" alt="" />
-          <img class="pt-3" src="assets/img/chabad-logo.svg" alt="" />
+          <img
+            class="pt-3 d-none d-sm-block"
+            src="assets/img/chabad-logo.svg"
+            alt=""
+          />
         </div>
         <button type="button" class="button">Donate</button>
       </nav>
       <!-- Hero Section  -->
       <section class="container hero">
         <div class="row align-items-center">
-          <div class="col-4 Montserrat">
+          <div class="col-12 col-lg-4 Montserrat">
             <h1 class="fw-bolder text-Primary font-66">Rosh Hashanah</h1>
             <h2 class="fw-bold fs-5">September 22 — September 24</h2>
             <div class="pt-4 mt-2">
@@ -35,7 +41,7 @@
               <p class="fs-5 fw-medium">Loremipsum@gmail.com</p>
               <p class="fs-5 fw-medium">212 . 206 . 9221</p>
             </div>
-            <div class="circle">
+            <div class="circle d-none d-lg-inline-block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -50,7 +56,7 @@
               </svg>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-12 col-lg-8">
             <div class="responsive-box">
               <img src="#" class="img-fluid w-100" alt="" />
             </div>
@@ -62,7 +68,7 @@
       <!-- About Section  -->
       <section class="about container">
         <div class="row">
-          <div class="col-6 pe-4 pt-5">
+          <div class="col-12 col-lg-6 px-4 pt-5">
             <h1 class="fw-bold font-48 text-Primary Quattrocento">
               Description
             </h1>
@@ -85,7 +91,7 @@
               </p>
             </div>
           </div>
-          <div class="col-6 ps-4">
+          <div class="col-12 col-lg-6 px-4">
             <h2 class="Montserrat fs-4 text-222 fw-normal">
               ROSH HASHANA EVENTS
             </h2>
@@ -222,7 +228,7 @@
           </p>
           <div class="d-flex flex-column gap-4 align-items-start pt-4">
             <span class="fs-5 fw-medium">Donation amount</span>
-            <div class="d-flex gap-3 Montserrat">
+            <div class="d-flex gap-3 flex-wrap Montserrat">
               <!-- Button 1 -->
               <div class="form-check">
                 <input
@@ -310,7 +316,7 @@
             </p>
             <div class="d-flex flex-column gap-4 align-items-start pt-4">
               <span class="fs-5 fw-medium">Choose your amount</span>
-              <div class="d-flex gap-3 Montserrat">
+              <div class="d-flex gap-3 flex-wrap Montserrat">
                 <!-- Button 1 -->
                 <div class="form-check">
                   <input
@@ -396,7 +402,7 @@
           <form action="#" class="form">
             <div class="row">
               <!-- Payment -->
-              <div class="col-5 Montserrat">
+              <div class="col-12 col-lg-5 Montserrat">
                 <div class="d-flex align-items-center gap-4">
                   <h2 class="fs-5 text-222 fw-medium">Payment</h2>
                   <div class="d-flex align-items-center gap-3">
@@ -458,7 +464,7 @@
                 </div>
               </div>
               <!-- Billing Info  -->
-              <div class="col-7">
+              <div class="col-12 col-lg-7">
                 <h2 class="fs-5 text-222 fw-medium">Billing Information</h2>
                 <div>
                   <div class="d-flex gap-3">
@@ -502,6 +508,20 @@
           </form>
         </div>
       </section>
+      <!-- Join / Subscription Section -->
+      <section class="subscription">
+        <div class="container">
+          <form
+            action="#"
+            class="d-flex flex-column align-items-center gap-3 Montserrat"
+          >
+            <h3 class="fs-4 fw-normal">We Want to Celebrate With You</h3>
+            <h1 class="font-66 fw-bold">Join Our Community</h1>
+            <input type="email" placeholder="email address" name="" id="" />
+            <button type="submit" class="button Montserrat">Sign Up</button>
+          </form>
+        </div>
+      </section>
     </main>
     <!-- Footer Section  -->
     <footer class="footer">
@@ -519,7 +539,7 @@
             </div>
           </div>
           <div class="text-white text-center">
-            <h1 class="fw-bold fs-3 text-uppercase Montserrat">
+            <h1 class="fw-bold fs-3 text-uppercase Montserrat text-white">
               High Holidays
             </h1>
             <svg

@@ -45,6 +45,7 @@
   display: inline-block;
   padding: 13px 10px 7px 10px;
   margin-top: 70px;
+  cursor: pointer;
 }
 
 /* About Section  */
@@ -207,6 +208,36 @@ select {
   background: #2b4760;
 }
 
+/* Join / Subscription Section */
+
+.subscription {
+  background: #d1e2ea;
+  padding: 100px 0;
+  text-align: center;
+}
+.subscription h3,
+h1 {
+  color: #2b4760;
+}
+.subscription input {
+  width: 100%;
+  max-width: 590px;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 20px 10px;
+  border-radius: 15px;
+  color: #949494;
+}
+.subscription input::placeholder {
+  color: #9f9f9f;
+}
+.subscription button {
+  padding: 20px 50px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 20px;
+}
 /* Footer Section  */
 .footer {
   background-color: #1a70ba;
@@ -218,4 +249,28 @@ select {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   padding-top: 2px;
+}
+
+/* Responsive CSS  */
+
+@media (max-width: 768px) {
+  .donate .block {
+    padding: 70px 30px 70px 25px;
+  }
+  .font-48 {
+    font-size: 30px;
+  }
+
+  .font-52 {
+    font-size: 35px;
+  }
+  .font-66 {
+    font-size: 42px;
+  }
+  .font-72 {
+    font-size: 50px;
+  }
+  .font-82 {
+    font-size: 50px;
+  }
 }
