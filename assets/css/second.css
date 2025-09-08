@@ -29,6 +29,66 @@
   padding: 13px 10px 7px 10px;
   margin-top: 70px;
 }
+
+/* About Section  */
+
+.about {
+  padding-bottom: 120px;
+}
+
+.font-48 {
+  font-size: 48px;
+}
+
+.about .pera {
+  padding-top: 25px;
+  color: #222;
+}
+.text-222 {
+  color: #222;
+}
+.about .event {
+  background-color: #f2f2f2;
+  color: #222;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.1s;
+}
+.about .event .date {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #f7f8f5;
+  padding: 10px 45px;
+  gap: 20px;
+  transition: ease-in-out;
+  transition-duration: 0.1s;
+}
+.about .circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  border: 1px solid #2222228f;
+  margin-right: 40px;
+  background: white;
+  transition: ease-in-out;
+  transition-duration: 0.1s;
+}
+.about .event:hover {
+  background: #35b1ef;
+  color: white;
+}
+.about .event:hover .date {
+  background: #1a70ba;
+}
+.about .event:hover .circle {
+  background: transparent;
+  border: 2px solid white;
+}
+.font-52 {
+  font-size: 52px;
+}
+
 /* Footer Section  */
 .footer {
   background-color: #1a70ba;
