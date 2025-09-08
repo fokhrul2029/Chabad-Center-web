@@ -109,7 +109,7 @@
   display: flex;
   flex-direction: column;
   background: #f2f2f2;
-  padding: 100px 0 100px 85px;
+  padding: 100px 80px 100px 85px;
 }
 .donate .block-1 h1 {
   color: #2b4760;
@@ -161,6 +161,7 @@
 }
 .donate .amount {
   margin-top: 80px;
+  margin-bottom: 50px;
   padding: 50px 0 30px 0;
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
@@ -168,6 +169,44 @@
   gap: 40px;
   color: #2b4760;
 }
+.donate .form .input,
+select {
+  border: none;
+  outline: 0;
+  padding: 16px 18px;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 0.678);
+  margin: 10px 5px 10px 0;
+}
+.donate .form .input::placeholder {
+  color: rgba(34, 34, 34, 0.5);
+}
+.donate select {
+  border: 2px solid #2b4760;
+  outline: 0;
+  /* padding: 16px 18px; */
+  font-weight: 500;
+  color: rgba(34, 34, 34, 0.678);
+  margin: 10px 5px 10px 0;
+}
+
+.custom-select {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0; /* Adjust spacing */
+  transform: translateY(-50%);
+  pointer-events: none;
+  padding: 9px;
+  background: #2b4760;
+}
+
 /* Footer Section  */
 .footer {
   background-color: #1a70ba;
