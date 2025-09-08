@@ -93,6 +93,9 @@
 .about .event:hover .date {
   background: #1a70ba;
 }
+.about .event:hover h1 {
+  color: white;
+}
 .about .event:hover .circle {
   background: transparent;
   border: 2px solid white;
@@ -190,6 +193,9 @@ select {
   color: rgba(34, 34, 34, 0.678);
   margin: 10px 5px 10px 0;
 }
+.donate .billing-input {
+  width: 102%;
+}
 
 .custom-select {
   appearance: none; /* Remove default arrow */
@@ -257,6 +263,9 @@ h1 {
   .donate .block {
     padding: 70px 30px 70px 25px;
   }
+  .donate .billing-input {
+    width: 100%;
+  }
   .font-48 {
     font-size: 30px;
   }
@@ -272,5 +281,18 @@ h1 {
   }
   .font-82 {
     font-size: 50px;
+  }
+  .about .event .date {
+    padding: 10px 25px;
+  }
+
+  .donate .form-check {
+    gap: 6px;
+    padding: 4px 6px 6px 34px;
+  }
+
+  .donate .form-check-input {
+    width: 14px;
+    height: 14px;
   }
 }

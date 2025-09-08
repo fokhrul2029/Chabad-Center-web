@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="assets/img/Group 109.svg"
+      href="assets/img/favicon.ico"
       type="image/x-icon"
     />
     <title>New York High Holidays</title>
@@ -113,7 +113,7 @@
                     </h1>
                   </div>
                 </div>
-                <div class="circle"></div>
+                <div class="circle d-none d-sm-flex"></div>
               </div>
               <!-- Event Date 2 -->
               <div
@@ -132,7 +132,7 @@
                     <p class="fs-6">Starts: 10:00 AM | Ends: 1:30 PM</p>
                   </div>
                 </div>
-                <div class="circle"></div>
+                <div class="circle d-none d-sm-flex"></div>
               </div>
               <!-- Event Date 3 -->
               <div
@@ -151,7 +151,7 @@
                     <p class="fs-6">Starts: 11:00 AM | Ends: 12:30 PM</p>
                   </div>
                 </div>
-                <div class="circle"></div>
+                <div class="circle d-none d-sm-flex"></div>
               </div>
               <!-- Event Date 4 -->
               <div
@@ -170,7 +170,7 @@
                     <p class="fs-6">Starts: 10:00 AM | Ends: 1:30 PM</p>
                   </div>
                 </div>
-                <div class="circle"></div>
+                <div class="circle d-none d-sm-flex"></div>
               </div>
               <!-- Event Date 5 -->
               <div
@@ -189,7 +189,7 @@
                     <p class="fs-6">Starts: 11:00 AM | Ends: 12:30 PM</p>
                   </div>
                 </div>
-                <div class="circle"></div>
+                <div class="circle d-none d-sm-flex"></div>
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@
           </p>
           <div class="d-flex flex-column gap-4 align-items-start pt-4">
             <span class="fs-5 fw-medium">Donation amount</span>
-            <div class="d-flex gap-3 flex-wrap Montserrat">
+            <div class="d-flex gap-1 gap-sm-3 flex-wrap Montserrat">
               <!-- Button 1 -->
               <div class="form-check">
                 <input
@@ -316,7 +316,7 @@
             </p>
             <div class="d-flex flex-column gap-4 align-items-start pt-4">
               <span class="fs-5 fw-medium">Choose your amount</span>
-              <div class="d-flex gap-3 flex-wrap Montserrat">
+              <div class="d-flex gap-1 gap-sm-3 flex-wrap Montserrat">
                 <!-- Button 1 -->
                 <div class="form-check">
                   <input
@@ -402,7 +402,7 @@
           <form action="#" class="form">
             <div class="row">
               <!-- Payment -->
-              <div class="col-12 col-lg-5 Montserrat">
+              <div class="col-12 col-xl-5 Montserrat">
                 <div class="d-flex align-items-center gap-4">
                   <h2 class="fs-5 text-222 fw-medium">Payment</h2>
                   <div class="d-flex align-items-center gap-3">
@@ -412,14 +412,14 @@
                     <img src="assets/img/card icon 4.svg" alt="" />
                   </div>
                 </div>
-                <div class="d-flex gap-3">
+                <div class="d-flex flex-column flex-md-row gap-3">
                   <input
-                    class="input w-50"
+                    class="input w-100 w-md-50"
                     placeholder="Credit Card Number"
                     type="text"
                   />
                   <input
-                    class="input w-50"
+                    class="input w-100 w-md-50"
                     placeholder="Security Code"
                     type="text"
                   />
@@ -430,8 +430,8 @@
                   class="input w-100"
                   placeholder="Name on Card"
                 />
-                <div class="d-flex gap-3">
-                  <div class="position-relative w-50">
+                <div class="d-flex flex-column flex-md-row gap-3">
+                  <div class="position-relative w-100 w-md-50">
                     <select class="custom-select pe-5 w-100">
                       <option disabled selected value="">
                         Expiration Month
@@ -446,7 +446,7 @@
                       <img src="assets/img/Arrow.svg" alt="" />
                     </span>
                   </div>
-                  <div class="position-relative w-50">
+                  <div class="position-relative w-100 w-md-50">
                     <select class="custom-select pe-5 w-100">
                       <option disabled selected value="">
                         Expiration Year
@@ -464,40 +464,60 @@
                 </div>
               </div>
               <!-- Billing Info  -->
-              <div class="col-12 col-lg-7">
-                <h2 class="fs-5 text-222 fw-medium">Billing Information</h2>
+              <div class="col-12 col-xl-7">
+                <h2 class="fs-5 text-222 fw-medium pt-4 pt-xl-0">
+                  Billing Information
+                </h2>
                 <div>
-                  <div class="d-flex gap-3">
+                  <div class="billing-input">
                     <input
+                      type="text"
                       class="input w-100"
                       placeholder="Street Address"
-                      type="text"
                     />
                   </div>
-                  <div class="d-flex gap-3">
-                    <input type="text" class="input w-75" placeholder="City" />
-                    <input type="text" class="input w-25" placeholder="State" />
+
+                  <div class="d-flex flex-column flex-md-row gap-3">
+                    <div class="col-12 col-md-8">
+                      <input
+                        type="text"
+                        class="input w-100"
+                        placeholder="City"
+                      />
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                      <input
+                        type="text"
+                        class="input w-100"
+                        placeholder="State"
+                      />
+                    </div>
                   </div>
-                  <div class="d-flex gap-3">
-                    <input
-                      type="text"
-                      class="input w-25"
-                      placeholder="Postal / Zip"
-                    />
-                    <div class="position-relative w-75">
-                      <select class="custom-select pe-5 w-100">
-                        <option disabled selected value="">
-                          Select Country
-                        </option>
-                        <option value="">United State</option>
-                        <option value="">Canada</option>
-                        <option value="">United Kingdom</option>
-                        <option value="">Bangladesh</option>
-                      </select>
-                      <!-- Custom arrow (SVG) -->
-                      <span class="select-arrow">
-                        <img src="assets/img/Arrow.svg" alt="" />
-                      </span>
+                  <div class="d-flex flex-column flex-md-row gap-3">
+                    <div class="col-12 col-md-4">
+                      <input
+                        type="text"
+                        class="input w-100"
+                        placeholder="Postal / Zip"
+                      />
+                    </div>
+                    <div class="col-12 col-md-8">
+                      <div class="position-relative w-100">
+                        <select class="custom-select pe-5 w-100">
+                          <option disabled selected value="">
+                            Select Country
+                          </option>
+                          <option value="">United State</option>
+                          <option value="">Canada</option>
+                          <option value="">United Kingdom</option>
+                          <option value="">Bangladesh</option>
+                        </select>
+                        <!-- Custom arrow (SVG) -->
+                        <span class="select-arrow">
+                          <img src="assets/img/Arrow.svg" alt="" />
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
