@@ -1,3 +1,23 @@
+/* Common CSS  */
+.text-222 {
+  color: #222;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-66 {
+  font-size: 66px;
+}
+
+.font-52 {
+  font-size: 52px;
+}
+.font-72 {
+  font-size: 72px;
+}
+.font-82 {
+  font-size: 82px;
+}
 /* Hero Section  */
 .hero {
   padding-top: 70px;
@@ -18,9 +38,6 @@
   padding: 21px 0 24px 0;
   margin-top: 25px;
 }
-.font-66 {
-  font-size: 66px;
-}
 
 .hero .circle {
   border: 1px solid #1a70ba;
@@ -36,17 +53,11 @@
   padding-bottom: 120px;
 }
 
-.font-48 {
-  font-size: 48px;
-}
-
 .about .pera {
   padding-top: 25px;
   color: #222;
 }
-.text-222 {
-  color: #222;
-}
+
 .about .event {
   background-color: #f2f2f2;
   color: #222;
@@ -85,10 +96,78 @@
   background: transparent;
   border: 2px solid white;
 }
-.font-52 {
-  font-size: 52px;
+
+/* Donate Section  */
+
+.donate {
+  padding-bottom: 100px;
+}
+.donate .head {
+  color: #2b4760;
+}
+.donate .block {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  padding: 100px 0 100px 85px;
+}
+.donate .block-1 h1 {
+  color: #2b4760;
+  padding-bottom: 12px;
 }
 
+.donate .block-1 .pera {
+  max-width: 614px;
+  line-height: 150%;
+}
+
+.donate .form-check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 4px 10px 6px 40px;
+  border-radius: 200px;
+  background: #2b4760;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.donate .form-check-input {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+.donate .form-check-input:checked {
+  border-color: #2b4760;
+  background-color: #2b4760;
+}
+
+.donate .form-check-label {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+.donate .block-2 {
+  margin-top: 38px;
+}
+.donate .block-2 h1 {
+  color: #2b4760;
+  padding-bottom: 12px;
+}
+.donate .block-2 .pera {
+  max-width: 614px;
+  line-height: 150%;
+}
+.donate .amount {
+  margin-top: 80px;
+  padding: 50px 0 30px 0;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  display: flex;
+  gap: 40px;
+  color: #2b4760;
+}
 /* Footer Section  */
 .footer {
   background-color: #1a70ba;
