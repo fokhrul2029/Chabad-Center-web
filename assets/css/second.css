@@ -1,0 +1,43 @@
+/* Hero Section  */
+.hero {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.hero .responsive-box {
+  width: 100%;
+  max-width: 917px;
+  aspect-ratio: 917 / 567;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.hero h2 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 21px 0 24px 0;
+  margin-top: 25px;
+}
+.font-66 {
+  font-size: 66px;
+}
+
+.hero .circle {
+  border: 1px solid #1a70ba;
+  border-radius: 100%;
+  display: inline-block;
+  padding: 13px 10px 7px 10px;
+  margin-top: 70px;
+}
+/* Footer Section  */
+.footer {
+  background-color: #1a70ba;
+  padding: 35px 0 44px 0;
+}
+
+.footer .pera {
+  font-size: 11.5px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 2px;
+}
